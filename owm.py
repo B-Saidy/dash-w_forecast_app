@@ -29,7 +29,7 @@ html.Div(className='four columns div-user-controls',
       children = [
       html.H2('Dash - Met Dash Board'),
       html.P('''Visualising time series with Plotly - Dash'''),
-      html.P('''Pick one or more stocks from the dropdown below.'''),
+      html.P('''Pick one city from the dropdown below.'''),
       html.Div(className='div-for-dropdown',
           children=[
               dcc.Dropdown(id='city',
